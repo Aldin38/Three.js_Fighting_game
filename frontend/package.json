@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "dat.gui": "^0.7.7",
+    "raw-loader": "^4.0.2",
     "socket.io": "^4.1.3",
     "socket.io-client": "^4.1.3",
+    "three": "^0.134.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -30,6 +33,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^7.0.0",
     "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7",
+    "webpack-obj-loader": "^1.0.4"
   }
 }
